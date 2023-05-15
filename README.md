@@ -63,3 +63,19 @@ remote: Resolving deltas: 100% (29/29), done.
 To https://github.com/Annette-Bwemere-Salama/gym-exercice-copy.git
  * [new branch]      main -> main
 ```
+ # Bundle 4
+
+
+## Exercise 2
+```bash
+ anette-bwemere@anettebwemere-HP-EliteBook-840-G3:~/BlockchainOpen/Gym-Git-Exercise-Solutions/Gym-Git-Exercise-Solutions$ git checkout -b ft/footer
+Basculement sur la nouvelle branche 'ft/footer'
+anette-bwemere@anettebwemere-HP-EliteBook-840-G3:~/BlockchainOpen/Gym-Git-Exercise-Solutions/Gym-Git-Exercise-Solutions$ touch footer.html
+anette-bwemere@anettebwemere-HP-EliteBook-840-G3:~/BlockchainOpen/Gym-Git-Exercise-Solutions/Gym-Git-Exercise-Solutions$ git add .
+anette-bwemere@anettebwemere-HP-EliteBook-840-G3:~/BlockchainOpen/Gym-Git-Exercise-Solutions/Gym-Git-Exercise-Solutions$ git commit -m"create footer"
+[ft/footer 8bd0819] create footer
+ 1 file changed, 79 insertions(+)
+ create mode 100644 footer.html
+anette-bwemere@anettebwemere-HP-EliteBook-840-G3:~/BlockchainOpen/Gym-Git-Exercise-Solutions/Gym-Git-Exercise-Solutions$ 
+
+```
