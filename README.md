@@ -27,8 +27,6 @@ anette-bwemere@anettebwemere-HP-EliteBook-840-G3:~/BlockchainOpen/Gym-Git-Exerci
 anette-bwemere@anettebwemere-HP-EliteBook-840-G3:~/BlockchainOpen/Gym-Git-Exercise-Solutions/Gym-Git-Exercise-Solutions$ git branch -d test
 Branche test supprimée (précédemment 0e3340d).
 anette-bwemere@anettebwemere-HP-EliteBook-840-G3:~/BlockchainOpen/Gym-Git-Exercise-Solutions/Gym-Git-Exercise-Solutions$
-
-
 anette-bwemere@anettebwemere-HP-EliteBook-840-G3:~/BlockchainOpen/Gym-Git-Exercise-Solutions/Gym-Git-Exercise-Solutions$ git checkout ft/faq-page
 Basculement sur la branche 'ft/faq-page'
 anette-bwemere@anettebwemere-HP-EliteBook-840-G3:~/BlockchainOpen/Gym-Git-Exercise-Solutions/Gym-Git-Exercise-Solutions$ git checkout -b ft/home-page-redesign
@@ -39,6 +37,8 @@ Votre branche est en retard sur 'origin/main' de 9 commits, et peut être mise �
   (utilisez "git pull" pour mettre à jour votre branche locale)
 anette-bwemere@anettebwemere-HP-EliteBook-840-G3:~/BlockchainOpen/Gym-Git-Exercise-Solutions/Gym-Git-Exercise-Solutions$ git add .
 anette-bwemere@anettebwemere-HP-EliteBook-840-G3:~/BlockchainOpen/Gym-Git-Exercise-Solutions/Gym-Git-Exercise-Solutions$ git commit -m"pull request"
+```
+```bash
 [main 3765325] pull request
  1 file changed, 3 insertions(+), 1 deletion(-)
 anette-bwemere@anettebwemere-HP-EliteBook-840-G3:~/BlockchainOpen/Gym-Git-Exercise-Solutions/Gym-Git-Exercise-Solutions$ git push origin main
@@ -112,9 +112,8 @@ anette-bwemere@anettebwemere-HP-EliteBook-840-G3:~/BlockchainOpen/Gym-Git-Exerci
  1 file changed, 1 insertion(+)
 anette-bwemere@anettebwemere-HP-EliteBook-840-G3:~/BlockchainOpen/Gym-Git-Exercise-Solutions/Gym-Git-Exercise-Solutions$
 git push 
-fatal: La branche courante ft/home-page-redesign n'a pas de branche amont.
-Pour pousser la branche courante et définir la distante comme amont, utilisez
-    git push --set-upstream origin ft/home-page-redesign
+```
+```bash
 anette-bwemere@anettebwemere-HP-EliteBook-840-G3:~/BlockchainOpen/Gym-Git-Exercise-Solutions/Gym-Git-Exercise-Solutions$ git push --set-upstream origin ft/home-page-redesign
 Énumération des objets: 8, fait.
 Décompte des objets: 100% (8/8), fait.
@@ -133,4 +132,5 @@ La branche 'ft/home-page-redesign' est paramétrée pour suivre la branche dista
 anette-bwemere@anettebwemere-HP-EliteBook-840-G3:~/BlockchainOpen/Gym-Git-Exercise-Solutions/Gym-Git-Exercise-Solutions$ git push
 Everything up-to-date
 anette-bwemere@anettebwemere-HP-EliteBook-840-G3:~/BlockchainOpen/Gym-Git-Exercise-Solutions/Gym-Git-Exercise-Solutions$ 
+
 ```
